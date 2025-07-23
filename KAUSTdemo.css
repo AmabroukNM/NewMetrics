@@ -89,18 +89,18 @@ max-width: 60%;
     }
 
 .CSATanchor{
-  --palette-rating-number-hover: #125E5E;
+  --palette-rating-number-hover: #df6c2d;
   --palette-rating-number-text: #000000;
   --palette-rating-number-text-selected: #000000;
   --palette-rating-number-text-selected-hover: #000000;
   --palette-rating-number-text-hover: #000000;
-  --palette-core-outline: #125E5E;
-  --palette-rating-number-selected: #28ACAC;
+  --palette-core-outline: #df6c2d;
+  --palette-rating-number-selected: #5fb0c2;
 }
 
 
 .CSATanchor:checked {
-  --palette-core-outline: #5C3A92; /* Dark purple border */
+  --palette-core-outline: #df6c2d; /* Dark purple border */
   border: 2px solid #5C3A92 !important;
 }
 
