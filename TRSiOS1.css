@@ -8,7 +8,7 @@
 
 :root { 
     --typography-fontFamily:'Effra';
-    --palette-core-primary: #FCD302; 
+    --palette-core-primary: #5fb0c2; 
     --rating-squares-border-color: #ffffff;
     --powered-by-display: none;
     --questions-spacing: 10px;
@@ -17,7 +17,7 @@
 
 
 .surveyBtn {
-    background-color: #37108F; /* Approximate color */
+    background-color: #5fb0c2; /* Approximate color */
     padding: 10px 20px;
     border: none;
     border-radius: 10px; /* Fully rounded corners */
@@ -52,7 +52,7 @@ neb-rating .neb-rating span {
 }
 
 .CSATanchor span label {
-    border: 1.5px solid #37108F; /* Keeps the border style */
+    border: 1.5px solid #df6c2d; /* Keeps the border style */
     height: 40px;
     width: 40px;
     border-radius: 50%; /* Makes the label circular */
