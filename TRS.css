@@ -236,12 +236,12 @@ height: 35px;
     
 margin-top: 10px;
 --palette-action-hover: transparent;
---palette-core-primary: #5C3A92;
---palette-group-mark-background:#5C3A92;
---palette-rating-number-selected:#5C3A92;
---palette-core-primary:#5C3A92;
---palette-action-active:transparent;
---palette-core-outline:transparent;
+--palette-core-primary: #28ACAC;
+--palette-group-mark-background:#28ACAC;
+--palette-rating-number-selected:#28ACAC;
+--palette-core-primary:#28ACAC;
+--palette-action-active:#28ACAC;
+--palette-core-outline:#28ACAC;
 
 }
 
