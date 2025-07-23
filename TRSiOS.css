@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Effra';
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/WaelChaar/Fonts/main/Effra_Std_Rg.ttf');
+} 
+
+
+
+:root { 
+    --typography-fontFamily:'Effra';
+    --palette-core-primary: #FCD302; 
+    --rating-squares-border-color: #ffffff;
+    --powered-by-display: none;
+    --questions-spacing: 10px;
+    --palette-action-hover: none !important;
+} 
+
+
+.surveyBtn {
+    background-color: #37108F; /* Approximate color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Fully rounded corners */
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    }
+
+
+.surveyBtn:hover {
+background-color: #04C9B8 !important; /* Ensure the background turns blue */
+}
+
+
+neb-rating .neb-rating span {
+    outline: none;
+}
+.neb-rating span {
+    outline: none;
+}
+.mobile-form-revamp.mobile-wcag-support neb-rating .neb-rating .neb-rating-value {
+    border: none !important;
+}
+
+.CSATanchor{
+ border: none !important;
+ outline: none;
+}
+
+.CSATanchor span {
+    background-color: #ffffff;
+}
+
+.CSATanchor span label {
+    border: 1.5px solid #37108F; /* Keeps the border style */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Makes the label circular */
+    display: flex; /* Ensures content is centered */
+    align-items: center;
+    justify-content: center;
+}
+
+.CSATanchor .fa-asterisk:before {
+  content: '' !important;
+}
+
+.Commentanchor {   
+margin-top: 20px;
+}
+
+.Textanchor {   
+margin-bottom: 5px;
+}
+
+
+.logo {
+    margin-top: -40px;
+    margin-bottom: -30px;
+    max-width: 50%; /* Adjust to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure it's displayed as a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
