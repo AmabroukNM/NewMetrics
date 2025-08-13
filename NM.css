@@ -8,6 +8,45 @@
   unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
 }
 
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+-webkit-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    -moz-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    -ms-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    -o-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    width: auto;
+    cursor: pointer;
+    padding: 15px 30px;
+    display: inline-block;
+    text-align: center;
+    color: #2E63F0;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+.Q1P1 {	
+   --palette-rating-custom-hover: #ff4f4d !important;
+    --palette-rating-custom-selected: #2D64F0 !important;
+    --palette-rating-custom-outline: #2D64F0 !important;
+--palette-rating-custom-selected-outline: #2D64F0 !important;
+    }
+
+
+   .Q2P2{
+
+    --palette-rating-number-fill-hover: transparent;
+    --palette-rating-number-selected: #2d65f0;
+--palette-rating-number-hover: #ff4f4d;
+}
 .LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
   width: auto;
 }
@@ -310,29 +349,7 @@ color: #71717A;
     position: relative;
     height: 35px;}
 
-/*/ Submit button modification /*/
-.surveyBtn.surveyBtn_submit {
-grid-column-gap: .5rem;
-    grid-row-gap: .5rem;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    letter-spacing: 0;
-    border: 1px solid #0000;
-    border-radius: 10rem;
-    justify-content: center;
-    align-items: center;
-    padding: .9375rem 2rem 1.0625rem;
-    font-size: 1.2em;
-    font-weight: 500;
-    line-height: 1.2em;
-    text-decoration: none;
-    transition-property: opacity, color, background-color;
-    transition-duration: .3s, .3s, .3s;
-    transition-timing-function: ease, ease, ease;
-    display: flex;
-    position: relative; 
-    height: 35px;}
+
 
 
     .surveyBtn.surveyBtn_back {grid-column-gap: .5rem;
