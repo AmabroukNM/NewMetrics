@@ -11,28 +11,42 @@
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
--webkit-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
--moz-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
--ms-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
--o-transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
 transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
 width: auto;
 cursor: pointer;
 padding: 15px 30px;
 display: inline-block;
 text-align: center;
-/* color: aliceblue; */
+color: #083d77;
 background: #ffffff;
-border: 2px solid #6a7ef1;
+border: 2px solid #ffffff;
 margin-bottom: 0;
 margin-top: 0;
 line-height: 1;
 border-radius: 0;
 font-weight: 700;
-font-size: 1.125rem;
+font-size: 1rem;
 text-decoration: none;
 text-transform: uppercase;
-color: #2E63F0 !important;
+}
+.surveyBtn.surveyBtn_close {
+transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+width: auto;
+cursor: pointer;
+padding: 15px 30px;
+display: inline-block;
+text-align: center;
+color: #083d77;
+background: #ffffff;
+border: 2px solid #ffffff;
+margin-bottom: 0;
+margin-top: 0;
+line-height: 1;
+border-radius: 0;
+font-weight: 700;
+font-size: 1rem;
+text-decoration: none;
+text-transform: uppercase;
 }
 
 .Q1P1 {	
