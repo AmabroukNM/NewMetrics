@@ -89,8 +89,13 @@ border: 2px solid #31393c;
 }
 
 
+.Q1P1 p.ratingMinLabel {
+    text-align: center !important;
+}
 
-
+.Q1P1 p.ratingMaxLabel{
+    text-align: center !important;
+}
 
 
 
