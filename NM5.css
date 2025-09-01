@@ -53,6 +53,12 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
+.surveyBtn.surveyBtn_close:hover {
+background-color: #31393c;
+color: #ffffff;
+border: 2px solid #31393c;
+}
+
 .Q1P1 {	
    --palette-rating-custom-hover: #ff4f4d !important;
     --palette-rating-custom-selected: #2D64F0 !important;
