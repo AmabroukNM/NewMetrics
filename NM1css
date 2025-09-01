@@ -87,7 +87,11 @@ border: 2px solid #31393c;
     cursor: pointer;
 
 }
-
+.Q1P1> div > div > div {
+width: var(--rating-1to5-width);
+min-width: 100%;
+max-width: 100%;
+}
 
 .Q1P1 p.ratingMinLabel {
     text-align: center !important;
