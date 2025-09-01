@@ -64,7 +64,35 @@ border: 2px solid #31393c;
     --palette-rating-custom-selected: #2D64F0 !important;
     --palette-rating-custom-outline: #2D64F0 !important;
 --palette-rating-custom-selected-outline: #2D64F0 !important;
+
     }
+.Q1P1 span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+}
+
+
+.Q1P1> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+
+.Q1P1> div > div{
+    
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
 
 
    .Q2P2{
